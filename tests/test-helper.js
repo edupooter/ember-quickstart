@@ -1,8 +1,8 @@
-import Application from 'ember-quickstart/app';
-import config from 'ember-quickstart/config/environment';
-import { setApplication } from '@ember/test-helpers';
-import { start } from 'ember-qunit';
+import Application from 'ember-quickstart/app'
+import config from 'ember-quickstart/config/environment'
+import { setApplication } from '@ember/test-helpers'
+import { start } from 'ember-qunit'
 
-setApplication(Application.create(config.APP));
+setApplication(Application.create(config.APP))
 
-start();
+start()
